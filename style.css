@@ -86,3 +86,20 @@ ul, ol {
 .list-container h3 {
     color: #007BFF; /* Color para los encabezados de las listas */
 }
+
+/* Container for the lists */
+.lists-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between the sections */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* Each section within the lists container */
+#shopping-list, #list-styles {
+    flex: 1; /* Allow sections to grow equally */
+    margin: 0 10px; /* Margin between sections */
+    background: white; /* Background color */
+    padding: 20px; /* Padding inside sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
